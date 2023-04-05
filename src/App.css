@@ -1,0 +1,22 @@
+
+.inputs, .buttons {
+  margin: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.MuiInputBase-input::-webkit-outer-spin-button,
+.MuiInputBase-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.MuiInputBase-input[type=number] {
+  -moz-appearance: textfield;
+}
